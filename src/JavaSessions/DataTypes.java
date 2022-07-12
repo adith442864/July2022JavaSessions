@@ -1,3 +1,5 @@
+package JavaSessions;
+
 
 public class DataTypes {
 	
