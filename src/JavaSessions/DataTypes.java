@@ -110,6 +110,19 @@ public class DataTypes {
 		System.out.println(flag);
 		System.out.println(flag1);
 		
+		//convert octal to decimal:
+		byte t= 065;
+		System.out.println(t);
+		// 065 = (0 × 8²) + (6 × 8¹) + (5 × 8⁰) = 53
+		
+		byte t1=077;
+		System.out.println(t1);
+		
+//		byte t2=0222;
+		
+		
+		
+		
 
 	}
 

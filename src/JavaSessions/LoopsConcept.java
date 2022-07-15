@@ -139,8 +139,20 @@ public class LoopsConcept {
 		} 
 		while (r<=10);
 		
+		System.out.println("----------------------------------------");
 		
+		//print the numbers in below format:
+		//00 01 02 03
+		//10 11 12 13
+		//20 21 22 23
+		//30 31 32 33
 		
+		for(int m=0; m<=5; m++) {
+			for(int n=0; n<=5; n++) {
+				System.out.print(m+""+n+" ");
+			}
+			System.out.println();
+		}
 		
 		
 		
