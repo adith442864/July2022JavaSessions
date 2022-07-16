@@ -17,12 +17,12 @@ public class Employee {
 		//Employee -- class / type of e1
 			//non primitive data type
 		
-		e1.name="Tom";
-		e1.age=25;
-		e1.city="Delhi";
-		e1.salary=23.33;
-		e1.isPermanent=true;
-		e1.gender='m';
+		e1.name ="Tom";
+		e1.age =25;
+		e1.city ="Delhi";
+		e1.salary =23.33;
+		e1.isPermanent =true;
+		e1.gender ='m';
 		
 		System.out.println(e1.name+" "+e1.age+" "+e1.city+" "+e1.salary+" "+e1.isPermanent+" "+e1.gender);
 		
