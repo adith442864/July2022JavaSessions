@@ -33,6 +33,42 @@ public class Customer {
 		return prodList;
 		
 	}
+	
+	// WAF - launch the browser  (Cross Browser logic)
+	// input parameter: browserName (String)
+	// return: void
+	//limit parameters (255 parameters can be passed)
+
+	
+	public void launchBrowser(String browserName) {
+		System.out.println("browser name is :" +browserName);
+		switch (browserName) {
+		case "chrome":
+			System.out.println("launch chrome");
+			break;
+		case "firefox":
+			System.out.println("launch firefox");
+			break;
+		case "safari":
+			System.out.println("launch safari");
+			break;
+		case "edge":
+			System.out.println("launch edge");
+			break;
+
+		default:
+			System.out.println("please pass the right browser :" +browserName);
+			break;
+		}
+		
+	}
+	
+	//WAF: Register a user:
+		//params: fn, ln, email, ph, password, age, dob, city, address, country
+		// we will pass the class object -- encapsulation
+	public void register(String fn, String ln, String email, String ph) {
+		
+	}
 
 	public static void main(String[] args) {
 		
@@ -53,6 +89,9 @@ public class Customer {
 		ArrayList<String> nokiaList = c1.doSearch("Nokia");
 		System.out.println(nokiaList.size()); //0
 		System.out.println(nokiaList); // []
+		
+		c1.launchBrowser("firefox");
+		
 		
 	}
 
