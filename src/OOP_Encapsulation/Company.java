@@ -5,6 +5,17 @@ public class Company {
 	public String name;
 	private int sharePrice;
 	public String hq;
+	
+	//getter
+	public int getSharePrice() {
+		return sharePrice;
+	}
+	
+	//setter:
+	public void setSharePrice(int sharePrice) {
+		this.sharePrice=sharePrice;
+	}
+	
 
 	public static void main(String[] args) {
 		
