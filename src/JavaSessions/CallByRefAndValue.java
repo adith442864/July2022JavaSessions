@@ -1,12 +1,12 @@
 package JavaSessions;
 
-public class Browser {
+public class CallByRefAndValue {
 	
 	String name;
 	double version;
 	String vendor;
 	
-	public void getInfo(Browser br) {
+	public void getInfo(CallByRefAndValue br) {
 		System.out.println(br.name+" " +br.version+" " +br.vendor);
 	}
 	
@@ -16,7 +16,7 @@ public class Browser {
 
 	public static void main(String[] args) {
 		
-		Browser b = new Browser();
+		CallByRefAndValue b = new CallByRefAndValue();
 		b.getInfo(b); //null 0.0 null
 		b.name="chrome";
 		b.version=91.1;
