@@ -2,21 +2,20 @@ package OOP_Interface;
 
 public interface USMedical extends WHO {
 	
+	public int min_fee=100;
+	
 	//can not have method body
 	//only method prototype -- abstract method(non static method)
 	//no method body, only method declaration
 	//interface can not have the business logic
 	//interface can have the common method, but class will override only once
 	//can not create the object of the interface
-	
+	//interface variables are by default static and final
 	//The type UN cannot be a superinterface of USMedical; a superinterface must be an interface
 	
 	public void physioServices();
-	
 	public void cardioServices();
-	
 	public void oncologyServices();
-	
 	public void emergencyServices();
 	
 	//after JDK 1.8:

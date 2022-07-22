@@ -17,8 +17,9 @@ public class TestHospital {
 		fh.covidTest();
 		fh.medicalInfo();
 		UNHG.covidGuideLines();
-		
-		
+		System.out.println(USMedical.min_fee);
+//		USMedical.min_fee=200; //can not change the value of the interface variable as it is static/final
+		System.out.println(fh.min_fee);
 		//Create an object of the interface -- strictly not allowed
 //		USMedical us = new USMedical(); //Cannot instantiate the type USMedical
 		
