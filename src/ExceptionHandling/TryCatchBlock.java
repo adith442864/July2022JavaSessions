@@ -34,6 +34,11 @@ public class TryCatchBlock {
 //			e.printStackTrace();
 //		}
 		
+//		catch(Throwable e) {
+//		System.out.println("some exception is coming...");
+//		e.printStackTrace();
+//	}
+		
 		System.out.println("B");
 		System.out.println("B");
 		System.out.println("B");
